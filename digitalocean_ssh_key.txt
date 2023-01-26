@@ -1,0 +1,2 @@
+		~\.ssh\digitalocean
+		Pass Amora01
