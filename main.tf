@@ -57,4 +57,6 @@ output "jenkins_ip" {
 resource "local_file" "kube_config" {
     content = digitalocean_kubernetes_cluster.k8s.kube_config.0.raw_config
     filename = "kube_config.yaml"
+    # para usar o kubectl precisa copiar o arquivo para o config
+    # cp .\kube_config.yaml C:\Users\mcgre\.kube\config
 }
