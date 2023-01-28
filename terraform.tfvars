@@ -1,4 +1,4 @@
-do_token = "dop_v1_fc99d0bea6c20dfff6241bf2c2b337b3e0494b7b80224535b06e4bbaaec66c7f"
+do_token = "dop_v1_0d9e3fc244e700efd15139ff8acdcfba8e9257d7d71a8445ff534086da3562fb"
 region   = "nyc1"
 ssh_keys = "digitalocean"
 
